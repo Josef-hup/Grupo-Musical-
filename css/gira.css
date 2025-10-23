@@ -14,14 +14,14 @@ p {
     font-family: 'BBH Sans Bogle', sans-serif;
 }   
 
-header 
-{
-    display:block;
+header {
+    display: block;
 }
 
-h1
-{
-    display: inline;
+/* Make h1 a block-level element so text-align works reliably */
+h1 {
+    display: block;
+    width: 100%;
 }
 
 .nav {
@@ -119,6 +119,8 @@ h1
 .submenu a:hover {
     background-color: rgb(60, 60, 58);
 }
+/* Estilos para la header  */
+
 
 .cont
 {

@@ -1,5 +1,4 @@
-* 
-{
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -14,14 +13,14 @@ p {
     font-family: 'BBH Sans Bogle', sans-serif;
 }   
 
-header 
-{
-    display:block;
+header {
+    display: block;
 }
 
-h1
-{
-    display: inline;
+/* Make h1 a block-level element so text-align works reliably */
+h1 {
+    display: block;
+    width: 100%;
 }
 
 .nav {
