@@ -120,41 +120,41 @@ h1
     background-color: rgb(60, 60, 58);
 }
 /* Estilos para la header  */
-.cont
+
+.container 
 {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 7    0px;
+    margin-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
-
-h2 {
-    width: auto;
-    height: 80px;
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
-p {
-    width: auto;
-    height: 100px;
-    font-size: 20px;
-}
-
-.box {
-    width: 500px;
-    height: 700px;
-}
-
-img {
-    margin-top: 10px;
+.box 
+{
     width: 100%;
     height: auto;
-    margin-top: 10px;
-    border: 1px black solid;
-    object-fit: cover;
-    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px;  
+    padding-top: 40px;
+}
+.album {
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    border: 5px black solid;
+    background-color: rgb(37, 37, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}.album img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
 }
