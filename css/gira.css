@@ -166,12 +166,13 @@ h2 {
     margin-top: 50px;
     font-size: 18px;
 }
-.tour-table tr {
-  border-bottom: 2px solid #0066ff;
-}
+
 th {
     padding-bottom: 20px;
+    border-bottom : solid 1px #ddd;
 }
 td {
-    padding: 15px;
+    padding: 20px;
+    padding-top: 30px;
+    border-bottom : solid 1px #ddd;
 }
