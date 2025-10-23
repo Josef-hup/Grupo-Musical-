@@ -148,10 +148,11 @@ main h1 {
     align-items: center ;
     padding: 20px;  
 }
+
 .album {
     width: 400px;
     height: 400px;
-    margin: 15px;
+    margin: 30px;
     border: 5px black solid;
     background-color: rgb(37, 37, 35);
     display: flex;
@@ -159,6 +160,14 @@ main h1 {
     align-items: center;
     justify-content: center;
     padding: 30px;
+}
+.box a 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 .album img {
     width: 80%;
