@@ -14,14 +14,14 @@ p {
     font-family: 'BBH Sans Bogle', sans-serif;
 }   
 
-header 
-{
-    display:block;
+header {
+    display: block;
 }
 
-h1
-{
-    display: inline;
+/* Make h1 a block-level element so text-align works reliably */
+h1 {
+    display: block;
+    width: 100%;
 }
 
 .nav {
@@ -120,7 +120,13 @@ h1
     background-color: rgb(60, 60, 58);
 }
 /* Estilos para la header  */
-
+main h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 30px;
+    display: block;  /* это можно оставить, это значение по умолчанию */
+    width: 100%;
+}
 .container 
 {
     width: 100%;
@@ -141,7 +147,6 @@ h1
     justify-content: center;
     align-items: center ;
     padding: 20px;  
-    padding-top: 40px;
 }
 .album {
     width: 400px;
@@ -153,8 +158,15 @@ h1
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}.album img {
+    padding: 30px;
+}
+.album img {
     width: 80%;
     height: auto;
     margin-bottom: 10px;
+}
+.album h2 {
+    padding-top: 5px;
+    font-size: 35px;
+    text-align: center;
 }
