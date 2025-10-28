@@ -167,3 +167,45 @@ h2 {
     overflow: hidden;
     cursor: pointer;
 }
+
+
+
+.track_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.track_section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.track_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    background-color: rgb(37, 37, 35);
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.track_container iframe {
+    border: none;
+    width: 100%;
+    height: 450px;
+}
+
+.track_description {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'BBH Sans Bogle', sans-serif;
+}
