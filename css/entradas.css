@@ -27,7 +27,7 @@ main h1 {
 
 .ticket_card:hover {
     transform: translateY(-10px);
-    background-color: rgb(50, 50, 48);
+
 }
 
 .ticket_header {
@@ -69,9 +69,7 @@ main h1 {
     border-bottom: 1px solid gray;
 }
 
-.price_option:last-child {
-    border-bottom: none;
-}
+
 
 .ticket_type {
     font-size: 18px;
@@ -97,6 +95,3 @@ main h1 {
     font-family: 'BBH Sans Bartle', sans-serif;
 }
 
-.buy_button:hover {
-    background-color: darkred;
-}

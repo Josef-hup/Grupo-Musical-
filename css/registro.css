@@ -43,10 +43,6 @@ main h1 {
     color: white;
 }
 
-.campo input:focus {
-    outline: none;
-    border: 2px solid red;
-}
 
 .boton_enviar {
     margin-top: 20px;
